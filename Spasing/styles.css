@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #2D145B;
+    background-color: #f3f4f6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
     display: none;
 }
 
-.welcome-screen, .register-form, .after-register {
+.welcome-screen, .register-form, .after-register, .gato-malo-levels, .abc-level {
     text-align: center;
     padding: 20px;
     border: 2px solid #4f46e5;
@@ -26,7 +26,7 @@ body {
 .welcome-text {
     font-size: 2.5em;
     color: #4f46e5;
-    animation: fadeIn 4s;
+    animation: fadeIn 10s;
 }
 
 @keyframes fadeIn {
@@ -64,27 +64,27 @@ body {
 }
 
 .gato-malo-btn {
-    background-color: #6481EC; /* Color gris claro */
+    background-color: #6c757d; /* Color gris claro */
 }
 
 .gato-medio-btn {
-    background-color: #214CE9; /* Color amarillo medio */
+    background-color: #ffc107; /* Color amarillo medio */
 }
 
 .gato-buenardo-btn {
-    background-color: #7404F1; /* Color verde brillante */
+    background-color: #28a745; /* Color verde brillante */
 }
 
 .gato-malo-btn:hover {
-    background-color: #ECB806;
+    background-color: #5a6268;
 }
 
 .gato-medio-btn:hover {
-    background-color: #ECB806;
+    background-color: #e0a800;
 }
 
 .gato-buenardo-btn:hover {
-    background-color: #662BDED8;
+    background-color: #218838;
 }
 
 form {
@@ -105,4 +105,19 @@ input {
     border-radius: 5px;
     width: 80%;
     font-size: 1em;
+}
+
+.letter-container {
+    margin-top: 20px;
+}
+
+.letter {
+    font-size: 5em;
+    color: #4f46e5;
+}
+
+.sign-image {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
 }

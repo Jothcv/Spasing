@@ -34,12 +34,26 @@
         <h2>Bienvenido PapuAmigo: <span id="usernameDisplay"></span></h2>
         <h3>¿Qué nivel de lenguaje de señas tienes?</h3>
         <div class="button-container">
-            <button class="btn gato-malo-btn">Gato Malo</button>
-            <button class="btn gato-medio-btn">Gato Medio</button>
-            <button class="btn gato-buenardo-btn">Gato Buenardo</button>
+            <button class="btn gato-malo-btn" id="gatoMaloBtn">Gato Malo</button>
+            <button class="btn gato-medio-btn" disabled>Gato Medio</button>
+            <button class="btn gato-buenardo-btn" disabled>Gato Buenardo</button>
         </div>
+    </div>
+
+    <div class="gato-malo-levels hidden">
+        <h3>Comienza tu aventura con el abecedario</h3>
+        <button class="btn primary-btn" id="startAbcBtn">Comencemos</button>
+    </div>
+
+    <div class="abc-level hidden">
+        <div class="letter-container">
+            <h1 class="letter">A</h1>
+            <img src="https://via.placeholder.com/200?text=A" alt="Letra A en lenguaje de señas" class="sign-image">
+        </div>
+        <button class="btn primary-btn" id="nextLetterBtn">Siguiente</button>
     </div>
 
     <script src="scripts.js"></script>
 </body>
 </html>
+a
